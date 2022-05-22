@@ -5,8 +5,12 @@
   "main": "index.js",
   "scripts": {
     "cy:open": "cypress open",
-    "cy:run": "cypress run",
-    "cy:update-snapshots": "cypress run --env updateSnapshots=true"
+    "cy:run:chrome": "cypress run --browser chrome",
+    "cy:run:firefox": "cypress run --browser firefox",
+    "cy:run:electron": "cypress run --browser electron",
+    "cy:run:edge": "cypress run --browser edge",
+    "cy:update-snapshots": "cypress run --env updateSnapshots=true",
+    "cy:run-dashboard:": "cypress run --record --key 3d6e8a49-dd57-4ac8-97e1-c9c7d3da9fa4"
   },
   "keywords": [],
   "author": "",
